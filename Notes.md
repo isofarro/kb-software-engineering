@@ -1,4 +1,6 @@
 
+
+### Views:
+
 * [[Topics]]
-* [[Notes]]
 * [[Literature Notes]]
