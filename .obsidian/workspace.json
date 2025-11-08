@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Huyen - AI Engineering.md",
+                "file": "Notes.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Huyen - AI Engineering"
+              "title": "Notes"
             }
           }
         ]
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Huyen - AI Engineering.md",
+                "file": "Notes.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Huyen - AI Engineering"
+              "title": "Backlinks for Notes"
             }
           },
           {
@@ -113,12 +113,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Huyen - AI Engineering.md",
+                "file": "Notes.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Huyen - AI Engineering"
+              "title": "Outgoing links from Notes"
             }
           },
           {
@@ -142,13 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Huyen - AI Engineering.md",
+                "file": "Notes.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Huyen - AI Engineering"
+              "title": "Outline of Notes"
             }
           },
           {
@@ -183,9 +183,14 @@
   },
   "active": "b118895345377651",
   "lastOpenFiles": [
+    "Index/Topics.md",
     "Literature Notes.md",
-    "Huyen - AI Engineering.md",
+    "Notes.md",
+    "Index",
     "README.md",
-    "Home.md"
+    "Notes/Backend Engineering.md",
+    "Notes",
+    "Literature Notes/Huyen - AI Engineering.md",
+    "Literature Notes"
   ]
 }

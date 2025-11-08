@@ -1,6 +1,4 @@
 
-### Backend engineering
-
 * [[Event-driven Architecture]]
 * [[Saga Pattern]]
 * [[Command Query Responsibility Segregation]] / CQRS
