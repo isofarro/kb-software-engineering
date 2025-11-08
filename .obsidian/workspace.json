@@ -166,7 +166,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -180,7 +181,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "244fd57ba16075c1",
+  "active": "b118895345377651",
   "lastOpenFiles": [
     "Literature Notes.md",
     "Huyen - AI Engineering.md",
