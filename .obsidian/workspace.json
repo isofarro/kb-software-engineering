@@ -20,8 +20,21 @@
               "icon": "lucide-file",
               "title": "Huyen - AI Engineering"
             }
+          },
+          {
+            "id": "0d81b335f641df95",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.10.6"
+              },
+              "icon": "lucide-book-up",
+              "title": "Release Notes 1.10.6"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -181,7 +194,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "b118895345377651",
+  "active": "0d81b335f641df95",
   "lastOpenFiles": [
     "Literature Notes/Jacobsen - Object-oriented Software Engineering.md",
     "Literature Notes/Huyen - AI Engineering.md",
