@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Literature Notes/Huyen - AI Engineering.md",
+                "file": "Index/Topics.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Huyen - AI Engineering"
+              "title": "Topics"
             }
           }
         ]
@@ -183,14 +183,15 @@
   },
   "active": "244fd57ba16075c1",
   "lastOpenFiles": [
+    "Journal",
     "Literature Notes/Jacobsen - Object-oriented Software Engineering.md",
     "Literature Notes/Huyen - AI Engineering.md",
-    "Literature Notes.md",
-    "Index/Topics.md",
-    "Notes.md",
-    "README.md",
-    "Index",
     "Notes/Backend Engineering.md",
+    "Literature Notes.md",
+    "README.md",
+    "Notes.md",
+    "Index/Topics.md",
+    "Index",
     "Notes",
     "Literature Notes"
   ]
