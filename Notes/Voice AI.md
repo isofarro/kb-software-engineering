@@ -1,3 +1,4 @@
+Never make Voice AI the first AI-based product you do. Despite being built on top of text-based LLMs, the environment is fraught with difficulties and complications because of the audio layer. Particularly that the audio layer is built on top of a text LLM with text-based assumptions that simply don't hold at the audio level.
 
 Voice AI is more difficult that text-based chat interfaces:
 
@@ -42,8 +43,11 @@ A text interface guarantees when a conversation turn ends, it's hard-baked into 
 
 With a voice, based on a text LLM where taking turns is baked into the foundation of the model API (an array of messages), this is brittle. Like using long-polling in the early web to simulate a live connection (before we had web-sockets)
 
-It requires a degree of politeness from a call respondent for a good call experience. Meaning they know they are talking to something that's not quite a fully adult human. An actual human adapts and recognises audio cues that the LLM cannot experience. A Voice AI requires a spoken "yes", a human can de
+It requires a degree of politeness from a call respondent for a good call experience. Meaning they know they are talking to something that's not quite a fully adult human. An actual human adapts and recognises audio cues that the LLM cannot experience. A Voice AI requires a spoken "yes", a human can deal with an "uh-huh"
 
 So, paradoxically, the illusion has to be broken, for the illusion of a voice conversation to work.
 
 Humans don't expect to be called by voice AI assistants.
+
+## Voice has emotional context
+
