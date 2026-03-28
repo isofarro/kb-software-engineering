@@ -13,7 +13,18 @@ Voice AI is more difficult that text-based chat interfaces:
 	* LLM models are deaf to speech disfluencies (ummm), and half-words.
 	* LLMs are unused to barge-in and interrupting respondents
 * Phone calls are a more hostile environment than the web
+* Lack of physical or deterministic guard rails on Voice AI platforms
+	* stems from the lack of maturity or keeping up with best practices
+	* can't catch untoward/dangerous model output
+	* webhook listeners can operate in parallel, but it's trying to claw back bad things after they've been vocalised by the text-to-speech
+* Difficult tradeoffs: performance versus security
+* All data in a Voice AI prompt will leak, given time and persistence. prompt drift effectively guarantees that
 
+## Good VoiceAI is about empathy and design experience
+
+"What we need is a Voice AI designer"
+
+Voice AI is a technical challenge, as well as a 
 
 ## Perceived performance
 
@@ -23,4 +34,5 @@ The main approach is when firing off the tool call to also have a start request 
 
 ## Voice AI is more hostile than the Web
 
-Douglas Crockford made the point that the Web is the most hostile programming environment, because it does not guacode running cannot guarantee i
+Douglas Crockford made the point that the Web is the most hostile programming environment, because it does not guarantee that code meant to run, is actually retrieved, interpreted or run. Or safe.
+
