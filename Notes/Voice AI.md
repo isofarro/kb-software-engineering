@@ -56,4 +56,7 @@ Humans don't expect to be called by voice AI assistants. It can be convincing, a
 
 Although the idea of an LLM that natively supports audio is compelling (e.g. `gpt-realtime`, there are issues with turning that into a compelling Voice AI solution:
 
-* Less choice/flexibility of *
+* Less choice/flexibility/tuning of transcribers
+* 
+* The cost of realtime models is currently 8 times the price for input, and 4 times the price for output than of the comparable text model.
+* 
