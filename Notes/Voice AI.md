@@ -36,8 +36,14 @@ The main approach is when firing off the tool call to also have a start request 
 
 Douglas Crockford made the point that the Web is the most hostile programming environment, because it does not guarantee that code meant to run, is actually retrieved, interpreted or run. Or safe.
 
-## No protocol for voice interfaces
+## Voice interfaces aren't turn-based
 
 A text interface guarantees when a conversation turn ends, it's hard-baked into the interface, despite it being unnatural. Conversations are turn based, like a text adventure game. You type something, and wait for the adventure to respond. It's clean, and clinical, and repeatable. And nothing like the real world.
 
-With a voice, based on a text LLM where taking turns is baked into the foundation of the model API 
+With a voice, based on a text LLM where taking turns is baked into the foundation of the model API (an array of messages), this is brittle. Like using long-polling in the early web to simulate a live connection (before we had web-sockets)
+
+It requires a degree of politeness from a call respondent for a good call experience. Meaning they know they are talking to something that's not quite a fully adult human. An actual human adapts and recognises audio cues that the LLM cannot experience. A Voice AI requires a spoken "yes", a human can de
+
+So, paradoxically, the illusion has to be broken, for the illusion of a voice conversation to work.
+
+Humans don't expect to be called by voice AI assistants.
