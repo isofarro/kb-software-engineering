@@ -47,7 +47,13 @@ It requires a degree of politeness from a call respondent for a good call experi
 
 So, paradoxically, the illusion has to be broken, for the illusion of a voice conversation to work.
 
-Humans don't expect to be called by voice AI assistants.
+Humans don't expect to be called by voice AI assistants. It can be convincing, and feel human, up until the illusion breaks down because something that is completely natural in a human to human conversation fails at an audio assistant level. Particularly in cultures where wordplay, self-deprecation, irony and sarcasm is typical.
 
 ## Voice has emotional context
 
+
+## The folly of speech-native models
+
+Although the idea of an LLM that natively supports audio is compelling (e.g. `gpt-realtime`, there are issues with turning that into a compelling Voice AI solution:
+
+* Less choice/flexibility of *
