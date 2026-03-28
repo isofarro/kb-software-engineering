@@ -24,7 +24,7 @@ Voice AI is more difficult that text-based chat interfaces:
 
 "What we need is a Voice AI designer"
 
-Voice AI is a technical challenge, as well as a 
+Voice AI is a technical challenge, as well as a human interface design challenge. They interlink, because a good quality conversation is affected by technical tradeoffs. And yet, solving the technical aspect doesn't guarantee a fluid human interaction.
 
 ## Perceived performance
 
@@ -36,3 +36,8 @@ The main approach is when firing off the tool call to also have a start request 
 
 Douglas Crockford made the point that the Web is the most hostile programming environment, because it does not guarantee that code meant to run, is actually retrieved, interpreted or run. Or safe.
 
+## No protocol for voice interfaces
+
+A text interface guarantees when a conversation turn ends, it's hard-baked into the interface, despite it being unnatural. Conversations are turn based, like a text adventure game. You type something, and wait for the adventure to respond. It's clean, and clinical, and repeatable. And nothing like the real world.
+
+With a voice, based on a text LLM where taking turns is baked into the foundation of the model API 
