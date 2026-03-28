@@ -56,9 +56,10 @@ Humans don't expect to be called by voice AI assistants. It can be convincing, a
 
 Although the idea of an LLM that natively supports audio is compelling (e.g. `gpt-realtime`, there are issues with turning that into a compelling Voice AI solution:
 
-* Less choice/flexibility/tuning of transcribers
-* The output voices available are robotic, and well below the current quality of 11labs and Cartesia voices.
-	* Sure, you can use these higher quality voices instead of the built-in `gpt-realtime` voices, but you're still paying the higher cost on output regardless of whether it's text or audio
+* Less choice/flexibility/tuning of transcribers. You don't get to use the best-of-breed transcribers.
+* The output voices available are robotic, and well below the current quality of 11labs and Cartesia voices. They'll be obviously bot calls, robotic in tone despite being more fluid on the language level.
+	* Sure, you can use these higher quality voices instead of the built-in `gpt-realtime` voices, but you're still paying the higher cost on output regardless of whether it's text or audio.
+	* What are you gaining by using an **audio-in/audio-out** model?
 * The cost of realtime models is currently 8 times the price for input, and 4 times the price for output than of the comparable text model.
 * With the more rigid structure, there's less choice of languages. When public facing, having English-only is limiting when a chunk of your intended audience has other languages as a primary language, or even various local dialects of English.
 	* Much like the voice-activated lift in Scotland, spoken dialect English is a more difficult proposition than a written English with dialect phrasings.
