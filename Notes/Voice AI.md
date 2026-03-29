@@ -49,11 +49,15 @@ So, paradoxically, the illusion has to be broken, for the illusion of a voice co
 
 Humans don't expect to be called by voice AI assistants. It can be convincing, and feel human, up until the illusion breaks down because something that is completely natural in a human to human conversation fails at an audio assistant level. Particularly in cultures where wordplay, self-deprecation, irony and sarcasm is typical.
 
-## Voice has emotional context
+## Voice has emotional and situational context
 
 Voice calls are an artificial degradation of face-to-face conversation. We lose the visual cues available in face-to-face conversation. We adapt by tuning in on vocal and audio cues, beyond just the words spoken.
 
-A voice AI platform that's using a transcriber (standalone or within the LLM model). That loses the audio cues and emotional inflections. Also interruptions are not naturally handled, since a text-based model has no concept of when so
+A voice AI platform that's using a transcriber (standalone or within the LLM model). That loses the audio cues and emotional inflections. Also interruptions are not naturally handled, since a text-based model has no concept of when something is said with more fidelity than a conversation "turn"
+
+In simpler terms LLM models receive what is said, just not how, when nor why. Spoken text merely appears without that context. If something cannot be determined by the words used, they are invisible to the model.
+
+Every missed audio context clue results in the breaking of the illusion that the respondent is talking to a human being.
 
 ## The folly of speech-native models
 
@@ -66,3 +70,5 @@ Although the idea of an LLM that natively supports audio is compelling (e.g. `gp
 * The cost of realtime models is currently 8 times the price for input, and 4 times the price for output than of the comparable text model.
 * With the more rigid structure, there's less choice of languages. When public facing, having English-only is limiting when a chunk of your intended audience has other languages as a primary language, or even various local dialects of English.
 	* Much like the voice-activated lift in Scotland, spoken dialect English is a more difficult proposition than a written English with dialect phrasings.
+
+A realtime model still doesn't solve the when and the how of speech, so it's still oblivious to the audio contextual clues that are there.
