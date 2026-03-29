@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Notes/Voice AI.md",
+                "file": "Notes/High quality techniques.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Voice AI"
+              "title": "High quality techniques"
             }
           }
         ]
@@ -183,8 +183,9 @@
   },
   "active": "b118895345377651",
   "lastOpenFiles": [
-    "Notes/Backend Engineering.md",
     "Notes/Voice AI.md",
+    "Notes/High quality techniques.md",
+    "Notes/Backend Engineering.md",
     "Literature Notes/Huyen - AI Engineering.md",
     "Literature Notes/Jacobsen - Object-oriented Software Engineering.md",
     "Index/Topics.md",
