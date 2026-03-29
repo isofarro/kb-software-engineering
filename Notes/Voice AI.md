@@ -51,6 +51,9 @@ Humans don't expect to be called by voice AI assistants. It can be convincing, a
 
 ## Voice has emotional context
 
+Voice calls are an artificial degradation of face-to-face conversation. We lose the visual cues available in face-to-face conversation. We adapt by tuning in on vocal and audio cues, beyond just the words spoken.
+
+A voice AI platform that's using a transcriber (standalone or within the LLM model). That loses the audio cues and emotional inflections. Also interruptions are not naturally handled, since a text-based model has no concept of when so
 
 ## The folly of speech-native models
 
